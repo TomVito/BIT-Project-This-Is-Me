@@ -2,13 +2,16 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .container-header {
-  margin: 0 auto;
-  width: 1140px;
+  padding-left: 200px;
+  padding-right: 200px;
+  background: white;
+  width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
+  position: fixed;
 }
 .logo {
   max-width: 100%;
@@ -25,7 +28,7 @@ body {
   color: #222;
 }
 .menu-list li {
-  padding-left: 20px;
+  padding-left: 30px;
 }
 .btn-home {
   color: #8490ff;
@@ -34,6 +37,8 @@ body {
   background: #f9f9ff;
 }
 .banner-wrapper {
+  padding-top: 120px;
+  padding-bottom: 50px;
   display: flex;
   width: 1140px;
   margin: 0 auto;
@@ -54,6 +59,7 @@ body {
 }
 .banner-right img {
   max-width: 100%;
+  border-radius: 50px;
 }
 h6 {
   font-size: 14px;
@@ -65,8 +71,84 @@ h1 {
   font-weight: 600;
 }
 p {
+  line-height: 1.7;
   font-size: 14px;
   color: #222222;
   font-weight: 300;
   padding-bottom: 30px;
+}
+.about-me-wrapper {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.about-me-left {
+  width: 50%;
+}
+.about-me-right {
+  width: 50%;
+}
+.about-me-left img {
+  max-width: 60%;
+  border-radius: 50px;
+  box-shadow: 0 1px 10px 0 rgb(0 0 0 / 50%);
+}
+.about-me-right h1 {
+  font-size: 36px;
+}
+.about-me-right a {
+  font-size: 14px;
+  padding: 10px;
+  color: white;
+  background: #8490ff;
+  text-decoration: none;
+}
+.container-services h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 900;
+}
+.container-services p {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+.services-wrapper {
+  text-align: center;
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.card i {
+  font-size: 48px;
+}
+.card {
+  width: 33%;
+}
+.services-p {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+a:hover {
+  color: #8490ff;
+  transition: 0.3s;
+}
+i:hover {
+  color: #8490ff;
+  transition: 0.3s;
+}
+h4 a {
+  color: #222;
+  text-decoration: none;
+}
+h4:hover {
+  color: #8490ff;
+  transition: 0.3s;
+  text-decoration: underline;
 }
