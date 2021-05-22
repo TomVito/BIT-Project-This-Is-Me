@@ -135,7 +135,11 @@ p {
   margin: 0 auto;
   padding-bottom: 100px;
 }
-a:hover {
+.menu-list a:hover {
+  color: #8490ff;
+  transition: 0.3s;
+}
+.card a:hover {
   color: #8490ff;
   transition: 0.3s;
 }
