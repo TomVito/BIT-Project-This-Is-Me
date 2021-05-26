@@ -1,0 +1,43 @@
+@media (max-width: 576px) {
+  body {
+    width: 1140px;
+    text-align: center;
+  }
+  .banner {
+    display: block;
+    box-sizing: border-box;
+  }
+  .banner-wrapper {
+    flex-wrap: wrap;
+  }
+  .banner-left,
+  .banner-right {
+    width: 100%;
+  }
+  .banner-right img {
+    width: 50%;
+    padding-top: 30px;
+  }
+  .about-me-wrapper {
+    flex-wrap: wrap;
+  }
+  .about-me-left {
+    display: 100%;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-me-right {
+    width: 100%;
+  }
+  .services-wrapper {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 100%;
+  }
+  .services-description {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
