@@ -6,14 +6,15 @@ body {
   padding-right: 200px;
   background: white;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
   position: fixed;
 }
 .logo {
+  padding-top: 5px;
   max-width: 100%;
   height: 50%;
 }
@@ -207,6 +208,7 @@ ul.submenu-level3 {
   width: 100px;
 }
 .container-stats {
+  margin-top: 100px;
   background: #8490ff;
 }
 .stats-p {
@@ -218,6 +220,8 @@ ul.submenu-level3 {
   font-size: 36px;
 }
 .stats-wrapper {
+  margin: 0 auto;
+  width: 1140px;
   display: flex;
   justify-content: space-evenly;
   padding-top: 100px;
