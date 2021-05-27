@@ -197,7 +197,7 @@ ul.submenu-level3 {
   font-size: 14px;
   color: white;
 }
-span {
+.line {
   border-bottom: 2px solid rgb(255, 255, 255);
   display: block;
 }
