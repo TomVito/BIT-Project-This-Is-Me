@@ -116,10 +116,11 @@ ul.submenu-level3 {
   padding-top: 15px;
 }
 .btn-view-more a {
+  font-size: 14px;
   background: white;
   text-decoration: none;
   color: black;
-  font-weight: 600;
+  font-weight: 900;
   border: 1px solid transparent;
   line-height: 42px;
   padding-left: 30px;
@@ -130,5 +131,85 @@ ul.submenu-level3 {
   background: none;
   color: white;
   border: 1px solid white;
+  transition: 0.3s;
+}
+.container-categories {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.categories-box-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.categories-box {
+  position: relative;
+}
+.box-description1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 0px solid;
+  text-align: center;
+  position: absolute;
+  top: 25px;
+  left: 40px;
+}
+.box-description2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 75px;
+  padding-right: 75px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 0px solid;
+  text-align: center;
+  position: absolute;
+  top: 25px;
+  left: 40px;
+}
+.box-description3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 0px solid;
+  text-align: center;
+  position: absolute;
+  top: 25px;
+  left: 40px;
+}
+.box-description1 h4,
+.box-description2 h4,
+.box-description3 h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+.box-description1 p,
+.box-description2 p,
+.box-description3 p {
+  font-size: 14px;
+  color: white;
+}
+span {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  display: block;
+}
+.categories-box:hover .box-description1 {
+  background-color: rgba(119, 162, 255, 0.8);
+  transition: 0.3s;
+}
+.categories-box:hover .box-description2 {
+  background-color: rgba(119, 162, 255, 0.8);
+  transition: 0.3s;
+}
+.categories-box:hover .box-description3 {
+  background-color: rgba(119, 162, 255, 0.8);
   transition: 0.3s;
 }
