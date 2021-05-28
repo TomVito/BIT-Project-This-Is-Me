@@ -40,4 +40,11 @@
     margin: 0 auto;
     text-align: center;
   }
+  .projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project {
+    width: 50%;
+  }
 }
