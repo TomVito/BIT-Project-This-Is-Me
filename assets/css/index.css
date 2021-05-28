@@ -146,11 +146,11 @@ p {
   color: #8490ff;
   transition: 0.3s;
 }
-h4 a {
+.services-h4 a {
   color: #222;
   text-decoration: none;
 }
-h4:hover {
+.services-h4:hover {
   color: #8490ff;
   transition: 0.3s;
   text-decoration: underline;
@@ -229,4 +229,51 @@ ul.submenu-level3 {
 }
 .card-stats h1 {
   text-align: center;
+}
+.container-projects {
+  margin: 0 auto;
+  width: 1140px;
+}
+.projects-description {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.projects-description p {
+  font-size: 14px;
+  color: #777777;
+}
+.projects-h2 {
+  font-size: 36px;
+}
+.projects-li {
+  padding-right: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.projects-li li {
+  display: inline-block;
+  padding-left: 30px;
+  font-size: 12px;
+  font-weight: 900;
+}
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.project {
+  width: 30%;
+}
+.project-text {
+  text-align: center;
+}
+.project-text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.project-text p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
