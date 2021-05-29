@@ -1,5 +1,8 @@
 body {
   font-family: "Poppins", sans-serif;
+  background: #f9f9ff;
+  color: #777;
+  font-size: 14px;
 }
 .container-header {
   padding-top: 15px;
@@ -12,6 +15,7 @@ body {
   justify-content: space-between;
   box-sizing: border-box;
   position: fixed;
+  z-index: 1;
 }
 .logo {
   padding-top: 5px;
@@ -114,7 +118,6 @@ ul.submenu-level3 {
   color: white;
   font-size: 14px;
   font-weight: 300;
-  line-height: 1.7;
 }
 .btn-view-more {
   padding-top: 15px;
@@ -216,4 +219,228 @@ ul.submenu-level3 {
 .categories-box:hover .box-description3 {
   background-color: rgba(119, 162, 255, 0.8);
   transition: 0.3s;
+}
+.container-posts {
+  line-height: 1.625em;
+  width: 1140px;
+  margin: 0 auto;
+}
+.post-content {
+  width: 95%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  padding-bottom: 50px;
+}
+.posts-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.posts-list {
+  width: 66%;
+}
+.post-details {
+  margin-top: 35px;
+  text-align: right;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: right;
+}
+.post {
+  display: flex;
+}
+.sidebar-widgets {
+  box-sizing: border-box;
+  padding: 0 15px;
+  width: 34%;
+}
+.content-image {
+  width: 100%;
+}
+.widget-wrap {
+  border: 1px dotted #eee;
+}
+.tags {
+  list-style: none;
+}
+.tags li {
+  display: inline;
+}
+.tags a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #222;
+}
+.sidebar-widget.search-widget {
+  margin: 30px 30px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #eee;
+}
+.search-form input::placeholder {
+  color: white;
+}
+.search-form input {
+  color: #fff;
+  padding: 11px 22px;
+  font-size: 15px;
+  border: none;
+  float: left;
+  width: 60%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  background: #8490ff;
+}
+.search-form button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #8490ff;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.user-details a {
+  margin-right: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #777;
+}
+.content-title h3 {
+  font-size: 24px;
+  color: black;
+}
+.content-title {
+  text-decoration: none;
+}
+.post .post-details .post-description .user-details .lnr {
+  font-weight: 900;
+  color: #222;
+}
+.primary-btn {
+  text-decoration: none;
+  background: #fff;
+  color: #222;
+  line-height: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  display: inline-block;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.content-nav {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.content-pages {
+  list-style: none;
+}
+.content-pages li {
+  display: inline-block;
+}
+.content-pages li a {
+  text-decoration: none;
+  padding: 10px;
+  color: #777;
+  font-weight: 600;
+}
+.content-nav .content-pages .page .lnr {
+  font-weight: 600;
+}
+.user-info li a {
+  padding-right: 20px;
+}
+.user-info a {
+  text-decoration: none;
+  color: #222;
+}
+.user-info h4 {
+  font-size: 18px;
+  color: #222;
+}
+.user-info p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-decoration: none;
+  color: #777;
+}
+.user-info ul {
+  padding-left: 0px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.popular-title {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  background: #8490ff;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  width: 80%;
+}
+.popular-post {
+  display: flex;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+.details h4 {
+  font-size: 14px;
+  color: #222;
+  padding: 0px;
+  margin: 0px;
+}
+.details a {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+.sidebar-widget.user-info {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom: 1px dotted #eee;
+  width: 80%;
+}
+.widget-img {
+  padding-right: 10px;
+}
+.details p {
+  color: #777;
+}
+.sidebar-widget.post-categories {
+  margin: 30px 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+.category-title {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  background: #8490ff;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+}
+.post-categories ul {
+  padding-left: 0px;
+  list-style: none;
+}
+.post-categories a {
+  text-decoration: none;
+  color: #777;
+}
+.categories-flex {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dotted #eee;
 }
