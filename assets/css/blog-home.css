@@ -258,7 +258,7 @@ ul.submenu-level3 {
   width: 100%;
 }
 .widget-wrap {
-  border: 1px dotted #eee;
+  border: 1px solid #eee;
 }
 .tags {
   list-style: none;
@@ -443,4 +443,121 @@ ul.submenu-level3 {
   display: flex;
   justify-content: space-between;
   border-bottom: 2px dotted #eee;
+}
+.sidebar-widget.newsletter {
+  margin: 30px 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+.newsletter-title {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  background: #8490ff;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+}
+.sidebar-widget.tag-clouds {
+  margin: 30px 30px;
+  padding-bottom: 30px;
+}
+.tag-clouds-title {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  background: #8490ff;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+}
+.sidebar-widget.tag-clouds ul {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0px;
+}
+.sidebar-widget.tag-clouds ul li {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 4px 14px;
+  margin-bottom: 10px;
+}
+.sidebar-widget.tag-clouds ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 12px;
+}
+.newsletter-form {
+  display: flex;
+}
+.newsletter-input {
+  display: flex;
+}
+.newsletter-icon {
+  background: white;
+  padding: 8px;
+  border-bottom: 1px #ced4da solid;
+  border-left: 1px #ced4da solid;
+  border-top: 1px #ced4da solid;
+}
+.newsletter-icon i {
+  color: #ced4da;
+}
+.newsletter-form-input {
+  border-left: none;
+  border-bottom: 1px #ced4da solid;
+  border-top: 1px #ced4da solid;
+  border-right: none;
+}
+.newsletter-btn {
+  text-decoration: none;
+  background: #8490ff;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 8px 20px;
+}
+.post-description ul li a:hover {
+  color: #8490ff;
+  transition: 0.3s;
+}
+.user-details a:hover {
+  color: #8490ff;
+  transition: 0.3s;
+}
+.content-title h3:hover {
+  color: #8490ff;
+  transition: 0.3s;
+}
+.primary-btn:hover {
+  background: #8490ff;
+  color: #fff;
+  transition: 0.3s;
+}
+.content-pages li a:hover {
+  background: #8490ff;
+  color: #fff;
+  transition: 0.3s;
+}
+.social-links li a i:hover {
+  color: #8490ff;
+  transition: 0.3s;
+}
+.details h4:hover {
+  color: #8490ff;
+  transition: 0.3s;
+}
+.categories-flex:hover {
+  border-bottom: #8490ff 2px dotted;
+  color: #8490ff;
+  transition: 0.3s;
+}
+.sidebar-widget.tag-clouds li:hover {
+  background: #8490ff;
+  transition: 0.3s;
+}
+.sidebar-widget.tag-clouds li:hover a {
+  color: #fff;
 }
