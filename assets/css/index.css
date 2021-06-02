@@ -2,9 +2,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .container-header {
+  background: #fff;
   padding-left: 200px;
   padding-right: 200px;
-  background: white;
   width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -630,4 +630,39 @@ span.lnr {
 }
 .footer-col-social {
   width: 20%;
+}
+.project-relative {
+  position: relative;
+}
+.project-overlay {
+  height: 340px;
+  width: 340px;
+  border-radius: 10px;
+  position: absolute;
+  background: #8490ff;
+  top: 0px;
+  left: 0px;
+  opacity: 80%;
+  opacity: 0;
+}
+.project:hover .project-overlay {
+  height: 340px;
+  width: 340px;
+  border-radius: 10px;
+  position: absolute;
+  background: #8490ff;
+  top: 0px;
+  left: 0px;
+  opacity: 80%;
+  transition: 0.3s;
+}
+.project-middle {
+  position: absolute;
+  top: 160px;
+  left: 140px;
+  opacity: 0;
+}
+.project:hover .project-middle {
+  opacity: 100%;
+  transition: 0.3s;
 }
