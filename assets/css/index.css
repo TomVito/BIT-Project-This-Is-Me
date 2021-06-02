@@ -12,6 +12,7 @@ body {
   justify-content: space-between;
   box-sizing: border-box;
   position: fixed;
+  z-index: 5;
 }
 .logo {
   padding-top: 5px;
@@ -543,4 +544,90 @@ span.lnr {
 }
 .latest-news-col:hover .latest-news-col-thumb img {
   transform: scale(1.1);
+}
+.brands {
+  background: #8490ff;
+}
+.container-brands {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.brands-row {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.brand-img {
+  opacity: 30%;
+}
+.brand-img:hover {
+  opacity: 100%;
+  transition: 0.3s;
+}
+.blog-home-footer {
+  background: #04091e;
+}
+.container-footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1140px;
+}
+.footer-row {
+  line-height: 1.7;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  display: flex;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #fff;
+}
+.fa {
+  padding-right: 5px;
+}
+.footer-col a {
+  text-decoration: none;
+  color: #8490ff;
+}
+.footer-col p {
+  color: #777;
+}
+.footer-col-social p {
+  color: #777;
+}
+.footer-social a {
+  color: #fff;
+  padding-right: 5px;
+}
+.footer-input-group {
+  display: flex;
+}
+.footer-btn {
+  background: #8490ff;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.2rem;
+}
+.footer-input-group {
+  width: 90%;
+}
+.footer-input-group input {
+  width: 100%;
+  border: none;
+  border: 1px solid transparent;
+  outline: none;
+}
+.footer-col-social h4 {
+  font-size: 18px;
+  color: #fff;
+}
+.footer-col {
+  padding-right: 15px;
+  width: 40%;
+}
+.footer-col-social {
+  width: 20%;
 }
