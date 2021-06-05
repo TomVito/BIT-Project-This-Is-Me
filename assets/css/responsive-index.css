@@ -8,6 +8,10 @@
     width: 1140px;
     text-align: center;
   }
+  .header-menu {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .banner {
     display: block;
     box-sizing: border-box;
@@ -69,9 +73,11 @@
   }
   .plan-row {
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .plan {
-    width: 100%;
+    width: 60%;
   }
   .latest-news-row {
     flex-wrap: wrap;
@@ -87,6 +93,10 @@
     width: 1140px;
     text-align: center;
   }
+  .header-menu {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .banner {
     display: block;
     box-sizing: border-box;
@@ -135,10 +145,10 @@
     left: 115px;
   }
   .project:hover .project-overlay {
-    left: 115px;
+    left: 400px;
   }
   .project-middle {
-    left: 250px;
+    left: 540px;
   }
   .feedback-row {
     flex-wrap: wrap;
@@ -148,9 +158,11 @@
   }
   .plan-row {
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .plan {
-    width: 100%;
+    width: 60%;
   }
   .latest-news-row {
     flex-wrap: wrap;
@@ -170,5 +182,12 @@
   }
   .footer-col-social {
     width: 100%;
+  }
+  .brands-row {
+    flex-wrap: wrap;
+  }
+  .brand {
+    width: 100%;
+    padding-bottom: 50px;
   }
 }

@@ -8,6 +8,10 @@
     width: 1140px;
     margin: 0 auto;
   }
+  .header-menu {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .categories-box-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -34,11 +38,22 @@
     top: 190px;
     left: 430px;
   }
+  .posts-list {
+    width: 80%;
+  }
+  .posts-row {
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media (max-width: 576px) {
   body {
     width: 1140px;
     margin: 0 auto;
+  }
+  .header-menu {
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .categories-box-wrapper {
     display: flex;
@@ -76,5 +91,12 @@
   }
   .footer-col-social {
     width: 100%;
+  }
+  .posts-list {
+    width: 80%;
+  }
+  .posts-row {
+    justify-content: center;
+    align-items: center;
   }
 }

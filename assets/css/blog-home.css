@@ -25,11 +25,19 @@ header {
   justify-content: space-between;
 }
 .logo {
-  padding-top: 5px;
+  padding-top: 10px;
+}
+.logo a {
   max-width: 100%;
   height: 50%;
 }
-.btn-home {
+.btn-blog {
+  color: #8490ff;
+}
+.btn-blog-home {
+  color: #8490ff;
+}
+.blog-i {
   color: #8490ff;
 }
 .menu-list a:hover {
@@ -73,6 +81,7 @@ ul.submenu-level3 {
   position: absolute;
   background: white;
   padding: 10px;
+  padding-right: 80px;
   top: 100%;
   right: 10%;
   width: 100px;
@@ -93,6 +102,7 @@ ul.submenu-level3 {
   position: absolute;
   background: white;
   padding: 10px;
+  padding-right: 80px;
   top: 100%;
   right: 10%;
   width: 100px;
@@ -244,7 +254,6 @@ ul.submenu-level3 {
   padding-bottom: 50px;
 }
 .posts-row {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -531,7 +540,7 @@ ul.submenu-level3 {
   color: #fff;
   font-size: 12px;
   font-weight: 900;
-  padding: 8px 20px;
+  padding: 8px 16px;
 }
 .post-description ul li a:hover {
   color: #8490ff;
